@@ -1,0 +1,73 @@
+.topnavbar{
+	background-color: #333;
+	height: 50px;
+	top: 0;
+	width: 100%;
+	position: fixed;
+	left: 0;
+}
+
+.topnavbar a{
+	float: right;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.topnavbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.sidenavbar{
+	top: 50px;
+	width: 300px;
+	position: fixed;
+	height: 100%;
+	left: 0;
+}
+
+.sidenavbar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 300px;
+	background-color: #f1f1f1;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+}
+
+.sidenavbar li{
+	display: block;
+	padding: 8px 16px;
+	color: black;	
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.sidenavbar li:hover {
+  background-color:#4CAF50;
+  color: white;
+}
+
+.sidenavbar a:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.sidenavbar a{
+	text-decoration: none;
+	display: block;
+	color: black;
+}
+
+.content {
+  margin-left: 300px; /* Same as the width of the sidenavbar */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 20px;
+  margin-top: 50px;
+}
