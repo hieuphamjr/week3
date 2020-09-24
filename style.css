@@ -16,11 +16,6 @@
 	text-decoration: none;
 }
 
-.topnavbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
 .sidenavbar{
 	top: 50px;
 	width: 300px;
