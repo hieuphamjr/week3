@@ -53,15 +53,15 @@
   color: white;
 }
 
+.sidenavbar a:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
 .sidenavbar a{
 	text-decoration: none;
 	display: block;
 	color: black;
-}
-
-.sidenavbar a:hover {
-  background-color: #4CAF50;
-  color: white;
 }
 
 .content {
